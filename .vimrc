@@ -49,7 +49,6 @@ nnoremap f :Ack!<Space>
 nnoremap p :CtrlP<CR> 
 
 autocmd FileType c nnoremap j :tab YcmCompleter GoTo<CR>
-autocmd FileType go nmap <silent> j <Plug>(go-def-tab)<CR>
 
 nnoremap <leader><Left> :tabprevious<CR>
 nnoremap <leader><Right> :tabnext<CR>
