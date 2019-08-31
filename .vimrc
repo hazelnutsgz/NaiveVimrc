@@ -64,7 +64,6 @@ let g:ctrlp_prompt_mappings = {
 let g:go_auto_type_info = 1
 
 "" MISC
-au filetype go inoremap <buffer> . .<C-x><C-o>
 
 
 
